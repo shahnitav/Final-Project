@@ -4,15 +4,19 @@
   "description": "This the Final Project Implementation for Coursera Bootstrap Course HongKong University",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "npm run lite",
+    "lite" : "lite-server"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "bootstrap": "^4.3.1",
-    "fontawesome": "^5.6.3",
+    "font-awesome": "^4.7.0",
     "jquery": "^3.4.1",
     "popper.js": "^1.15.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
